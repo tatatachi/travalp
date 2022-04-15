@@ -1,0 +1,164 @@
+@media (max-width: 480){
+  .person2{
+    padding-top: 100px;
+}
+.coment1{
+  padding-bottom: 20px;
+}
+}
+
+@media (min-width: 481px) {
+	/* 481px以上に適用されるCSS（タブレット用） */
+
+
+}
+@media (min-width: 960px) {
+  .container{
+    padding: 100px 0 150px 0;
+    background-position: center;
+
+  }
+
+  header{
+    height: 64px;
+    position: fixed;
+    background-color: white;
+}
+  .header-right{
+    float: right;
+    padding: 20px ;
+    background-color: orange;
+}
+
+.header-logo{
+  float: left;
+}
+
+.header-list0{
+  list-style: none;
+  float: left;
+  margin: 20px;
+  padding-left: 90px;
+}
+.asd{
+  padding: 0 25px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.header-right{
+  float: right;
+  padding: 20px;
+}
+.title-btn{
+    color: white;
+    border-radius:4px;
+}
+  .header-list0{
+    display: block;
+  }
+
+  .header-list{
+    display: none;
+  }
+
+  .top-concept{
+    font-size: 30px;
+  }
+
+  .top-about-us{
+    font-size: 30px;
+  }
+
+  .container a{
+    padding: 10px 20px;
+    font-size: 40px;
+  }
+    .container h1 span{
+        font-size: 65px;
+    }
+
+    .container h3 span{
+      font-size: 38px;
+    }
+
+    .container-entry{
+      padding-top: 30px;
+    }
+
+    .concept h3{
+        font-size: 54px
+    }
+    .topic h1{
+        font-size: 54px;
+    }
+  .persons{
+    margin: 0 auto;
+    float: left;
+    width: 50%;
+  }
+
+  .person-content{
+    padding: 50px;
+  }
+
+
+  .top-content{
+    font-size: 30px;
+  }
+
+  .event-content ul{
+    width: 90%;
+    text-align: center;
+  }
+
+  .event-content h3{
+    font-size: 54px;
+    padding: 30px;
+  }
+
+  .event-content-block{
+    width: 50%;
+  }
+
+  .event-content-body li{
+    font-size: 45px;
+    padding: 20px;
+  }
+
+  .event-photo img{
+    padding: 20px;
+  }
+
+  .schedule-content-body br{
+    display: none;
+  }
+
+  .event-content-body p{
+    font-size: 30px;
+  }
+
+  .schedule-title h3{
+    font-size: 30px;
+  }
+
+  .schedule-content{
+    font-size: 20px;
+    width: 50%;
+  }
+
+  .schedule-content-title h3{
+    font-size: 45px;
+  }
+
+  .schedule-content-body{
+    font-size: 30px;
+  }
+
+  .top-schedule{
+    font-size: 30px;
+  }
+	/* 960px以上に適用されるCSS（PC用） */
+}
