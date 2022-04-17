@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="respon.css">
+    <link rel="stylesheet" href="sptravelp.css">
+    <link rel="stylesheet" href="travelprespon.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -27,29 +28,33 @@
                 <div class="header-right">
                     <a href="#entry-form" class="title-btn">予約はこちら</a>
                 </div>
+                
 
                 <!--ここまでフルサイズ用-->
+
+              
 
                 <div class="header-list">
                     <div class="hamburger-menu">
                         <input type="checkbox" id="menu-btn-check">
                         <label for="menu-btn-check" class="menu-btn"><span></span></label>
                         <!--ここからメニュー-->
-        <div class="menu-content">
+        <div class="menu-content" id="menu-content">
             <ul>
                 <li>
                     <a href="#entry-form">申し込みフォーム</a>
+                    
                 </li>
                 <li>
-                    <a href="https://oyce.co.jp/">運営会社</a>
+                    <a href="https://oyce.co.jp/" target="_blank">運営会社</a>
                 </li>
                 
             </ul>
 
             <div class="sns-content">
-                <a href="https://twitter.com/glc_career">Twitter</a>
+                <a href="https://twitter.com/glc_career" target="_blank">Twitter</a>
                 <br>
-                <a href="https://www.instagram.com/glc_career/?hl=ja">Instagram</a>
+                <a href="https://www.instagram.com/glc_career/?hl=ja" target="_blank">Instagram</a>
             </div>
             
         <!--ここまでメニュー-->
@@ -102,7 +107,7 @@
                 <div class="persons">
                     <div class="person1">
                         <div class="person-photo">
-                            <img src="PHOTO/Mr.takao pic.jpg">
+                            <img src="Mr.takao pic.jpg">
                         </div>
 
                     </div>
@@ -212,9 +217,9 @@
                     <div class="schedule-content-body">
                         <p>日時：4月30日(土)
                             <br>13：00〜17：00</p>
-                            <p>会場：オリンピックセンター
-                            <p>主催：
-                            <p>その他：</p>
+                            <p>会場：国立オリンピック記念青少年総合センター
+                            <p>主催：Glocal Creative Career
+                            <p>その他：特になし</p>
                             
                     </div>
                     
@@ -256,16 +261,19 @@
             onload="if(submitted){window.location='https://tatatachi.github.io/thankspage/';}"
         ></iframe>
     
+           
+
+
             <div class="c-form__item">
-                <label class="c-form__label" for="field-name"
+                <label class="c-form__label" for="field-uni"
                     >名前<span class="c-form__required">必須</span></label
                 >
                 <input
                     name="entry.1498135098"
                     class="c-form__input"
-                    id="field-name"
+                    id="field-uni"
                     placeholder="山田太郎"
-                    type="text"
+                    type="uni"
                     required="required"
                 />
             </div>
@@ -283,6 +291,54 @@
                     required="required"
                 />
             </div>
+
+           
+
+            <div class="c-form__item">
+                <label class="c-form__label" for="field-uni"
+                    >メールアドレス<span class="c-form__required">必須</span></label
+                >
+                <input
+                    name="entry.1220393381"
+                    class="c-form__input"
+                    id="field-uni"
+                    placeholder="〇〇〇〇＠〇〇〇〇"
+                    type="uni"
+                    required="required"
+                />
+            </div>
+
+
+            <div class="c-form__item">
+                <label class="c-form__label" for="field-uni"
+                    >電話番号<span class="c-form__required">必須</span></label
+                >
+                <input
+                    name="entry.1999490692"
+                    class="c-form__input"
+                    id="field-uni"
+                    placeholder="〇〇〇-〇〇〇〇-〇〇〇〇"
+                    type="uni"
+                    required="required"
+                />
+            </div>
+
+
+            <div class="c-form__item">
+                <label class="c-form__label" for="field-uni"
+                    >ラインID<span class="c-form__required">必須</span></label
+                >
+                <input
+                    name="entry.1888766777"
+                    class="c-form__input"
+                    id="field-uni"
+                    placeholder="〇〇〇-〇〇〇〇-〇〇〇〇"
+                    type="uni"
+                    required="required"
+                />
+            </div>
+
+            
     
             
     
@@ -318,5 +374,22 @@
         </div>
     </footer>
 </body>
-</html>
 
+
+
+
+
+
+<script>
+    $(function() {
+      $('#menu-content li a').on('click', function(event) {
+        $('#menu-btn-check').prop('checked', false);
+      });
+    });
+    </script>
+
+
+
+
+
+</html>
