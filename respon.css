@@ -12,7 +12,7 @@
 
 
 }
-@media (min-width: 960px) {
+@media (min-width: 1048px) {
   .container{
     padding: 100px 0 150px 0;
     background-position: center;
@@ -20,14 +20,15 @@
   }
 
   header{
-    height: 64px;
+    height: 60px;
     position: fixed;
     background-color: white;
 }
   .header-right{
     float: right;
-    padding: 20px ;
+    padding: 17px 10px 1px 10px ;
     background-color: orange;
+    height: 42px;
 }
 
 .header-logo{
@@ -48,10 +49,7 @@
 
 
 
-.header-right{
-  float: right;
-  padding: 20px;
-}
+
 .title-btn{
     color: white;
     border-radius:4px;
@@ -131,6 +129,11 @@
   .event-photo img{
     padding: 20px;
   }
+
+  .event-photo img{
+    width: 260px;
+    height: 190px;
+}
 
   .schedule-content-body br{
     display: none;
