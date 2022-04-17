@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 
 .container{
-    background-image: url(PHOTO/D99C6188-3790-4DAE-AD85-61818B007AA1_1_105_c.jpeg) ;
+    background-image: url(D99C6188-3790-4DAE-AD85-61818B007AA1_1_105_c.jpeg) ;
     background-size: cover;
     text-align: center;
     color: orange;
@@ -72,11 +72,18 @@ header{
     width: 100%;
     margin: 0 auto;
 }
+
+.header-right{
+    height: 47px;
+}
+
+
+
 /* ここからメニュー*/
 
 .menu-btn {
     position: fixed;
-    top: 10px;
+    top: 2px;
     right: 10px;
     display: flex;
     height: 45px;
